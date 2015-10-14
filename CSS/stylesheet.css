@@ -1,0 +1,139 @@
+@import "http://webfonts.ru/import/alegreya.css";
+
+body{
+	left:0;
+	margin:0;
+	position:relative;
+	font-family: 'Alegreya';
+}
+
+.jumbotron{
+	background-image: url(../../MyProject/images/gorod-geroyev.jpg);
+	height:350px;
+	margin-bottom:0px;
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size:cover;
+}
+
+.menu{
+	opacity:1;
+	height:100%;
+	left:-285px;
+	position:fixed;
+	width:285px;
+}
+
+.menu ul{
+	border-top:1px solid #636366;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu li{
+	padding:17px 10px;
+	background-color:#CC6699;
+	text-align:center;
+	border-bottom:1px solid #fff;
+	list-style-type:disc;
+}
+
+.menu li:last-child{
+	border-bottom:none;
+}
+
+
+.menu a {
+	color:#003366;
+	font-size: 15px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.menu a:hover {
+	color:#fff;
+	font-size: 15px;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+.menu .baymax{
+	background-color:#CC6699;
+	height:100%;
+}
+
+.menu .baymax img{
+	position:relative;
+	top:20px;
+	width:98%;
+}
+
+.icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}  
+
+.jumbotron h1 {
+    font-family: 'Alegreya';
+    color:#fff;
+    font-size: 48px;  
+    font-weight: bold;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.jumbotron .container a{
+	color:#CC0066;
+	font-size:17px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.sites{
+	background-color:white;
+}
+
+.thumbnail a img{ 
+	height:50px;
+	width:50px;
+	padding:5px 5px;
+	overflow:visible;
+	position:relative;
+	background-color:#FFFFFF;
+
+}
+
+.thumbnail{
+	height:70px;
+	width:70px;
+	border-radius:10px;
+	display:inline-block;
+}
+
+.wrapper{
+	max-width:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
